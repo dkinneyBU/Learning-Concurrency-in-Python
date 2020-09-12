@@ -13,4 +13,4 @@ for link in soup.find_all('a'):
 
 
 t2 = time.time()
-print("Total Execeution Time: {} Seconds".format)
+print("Total Execeution Time: {} Seconds".format(t2-t1))
